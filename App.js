@@ -25,6 +25,8 @@ export default function App() {
     }
   };
 
+  
+
   const loadData = async () => {
     try {
       const storedItems = await AsyncStorage.getItem("items");
